@@ -15,6 +15,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { PostServices } from './posts/posts.service';
 import { SamaraComponent } from './samara/samara.component';
+import { ShiziComponent } from './shizi/shizi.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SamaraComponent } from './samara/samara.component';
     HeaderComponent,
     PostListComponent,
     SamaraComponent,
+    ShiziComponent,
   ],
   imports: [
     BrowserModule,
